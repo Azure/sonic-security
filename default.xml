@@ -5,17 +5,35 @@
   
   <project path="sonic-dell-buildimage" name="sonic/sonic-dell-buildimage.git" />
   <project path="sonic-dell-linux-kernel" name="sonic/sonic-dell-linux-kernel.git" />
-
+  
   <project path="sonic-pas-config-s6000" name="ar/platform-s6000-config.git"/>
+  
+  <project path="sonic-build-tools" name="ar/sonic-build-tools.git" />
+
+  <project path="sonic-logging" name="ar/logging.git" />
   <project path="sonic-common-utils" name="ar/common-utils.git" />
+  <project path="sonic-object-library" name="ar/cps-api.git" />
+
+  <project path="sonic-base-model" name="ar/base-model.git"/>
+
+  <project path="sonic-nas-acl" name="ar/nas-acl.git"/>
+  <project path="sonic-nas-common" name="ar/nas-common.git"/>
+  <project path="sonic-nas-daemon" name="ar/nas-daemon.git"/>
+  <project path="sonic-nas-interface" name="ar/nas-interface.git"/>
+  <project path="sonic-nas-l2" name="ar/nas-l2.git"/>
+  <project path="sonic-nas-l3" name="ar/nas-l3.git"/>
+  <project path="sonic-nas-linux" name="ar/nas-linux.git"/>
+  <project path="sonic-nas-ndi-api" name="ar/nas-ndi-api.git"/>
+  <project path="sonic-nas-ndi" name="ar/nas-ndi.git"/>
+  <project path="sonic-nas-qos" name="ar/nas-qos.git"/>
+  <project path="sonic-nas-platform-s6000" name="ar/nas-platform-S6000.git"/>
+
   <project path="sonic-pas" name="ar/pas.git" />
   <project path="sonic-sdi-api" name="ar/sdi-api.git" />
-  <project path="sonic-object-library" name="ar/cps-api.git" />
   <project path="sonic-sdi-device-drivers" name="ar/sdi-device-drivers.git" />
   <project path="sonic-sdi-sys" name="ar/sdi-sys.git" />
   <project path="sonic-sdi-framework" name="ar/sdi-framework.git" />
-  <project path="sonic-logging" name="ar/logging.git" />
-  <project path="sonic-build-tools" name="ar/sonic-build-tools.git" />
   
+  <project path="sonic-nas-sai-api" name="ar/sai-api.git" />
 </manifest>
 
