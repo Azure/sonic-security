@@ -6,7 +6,7 @@
   <project path="sonic-dell-buildimage" name="sonic/sonic-dell-buildimage.git" />
   <project path="sonic-dell-linux-kernel" name="sonic/sonic-dell-linux-kernel.git" />
 
-  <project path="sonic-pas-config-s6000" name="ar/pas-config-s6000.git"/>
+  <project path="sonic-pas-config-s6000" name="ar/platform-s6000-config.git"/>
   <project path="sonic-common-utils" name="ar/common-utils.git" />
   <project path="sonic-pas" name="ar/pas.git" />
   <project path="sonic-sdi-api" name="ar/sdi-api.git" />
