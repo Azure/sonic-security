@@ -1,17 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@stash.force10networks.com/sonic/"/>
+  <remote name="origin" fetch="ssh://git@stash.force10networks.com/"/>
   <default remote="origin" revision="master" sync-j="4"/>
-  <project path="sonic-pas-config-s6000" name="pas-config-s6000.git"/>
-  <project path="sonic-common-utils" name="common-utils.git" />
-  <project path="sonic-pas" name="pas.git" />
-  <project path="sonic-sdi-api" name="sdi-api.git" />
-  <project path="sonic-object-library" name="cps-api.git" />
-  <project path="sonic-sdi-device-drivers" name="sdi-device-drivers.git" />
-  <project path="sonic-sdi-sys" name="sdi-sys.git" />
-  <project path="sonic-sdi-framework" name="sdi-framework.git" />
-  <project path="sonic-logging" name="logging.git" />
-  <project path="sonic-build-tools" name="sonic-build-tools.git" />
-  <project path="swss" name="swss.git" />
+  <project path="sonic-pas-config-s6000" name="ar/pas-config-s6000.git"/>
+  <project path="sonic-common-utils" name="ar/common-utils.git" />
+  <project path="sonic-pas" name="ar/pas.git" />
+  <project path="sonic-sdi-api" name="ar/sdi-api.git" />
+  <project path="sonic-object-library" name="ar/cps-api.git" />
+  <project path="sonic-sdi-device-drivers" name="ar/sdi-device-drivers.git" />
+  <project path="sonic-sdi-sys" name="ar/sdi-sys.git" />
+  <project path="sonic-sdi-framework" name="ar/sdi-framework.git" />
+  <project path="sonic-logging" name="ar/logging.git" />
+  <project path="sonic-build-tools" name="ar/sonic-build-tools.git" />
 </manifest>
 
