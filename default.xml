@@ -1,49 +1,50 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="origin" fetch="ssh://git@stash.force10networks.com/"/>
-  <default remote="origin" revision="feature/BASE-363-SONiC-Sync" sync-j="4"/>
+  <remote name="origin" fetch="ssh://git@stash.force10networks.com/ar" revision="feature/BASE-363-SONiC-Sync" />
+  <remote name="sonic" fetch="ssh://git@stash.force10networks.com/sonic" revision="feature/BASE-363-SONiC-Sync" />
+  <default remote="origin" sync-j="4"/>
   
   <!-- The following section is for build tools and scripts-->
-  <project path="sonic-dell-buildimage" name="sonic/sonic-dell-buildimage" />
-  <project path="sonic-build-tools" name="ar/sonic-build-tools" />
+  <project path="sonic-dell-buildimage" name="sonic-dell-buildimage" remote="sonic" />
+  <project path="sonic-build-tools" name="sonic-build-tools" />
 
   <!-- The following section is for platform configuration files-->
-  <project path="sonic-pas-config-s6000" name="ar/platform-s6000-config"/>
-  <project path="sonic-nas-platform-s6000" name="ar/nas-platform-S6000"/>
+  <project path="sonic-pas-config-s6000" name="platform-s6000-config"/>
+  <project path="sonic-nas-platform-s6000" name="nas-platform-S6000"/>
   
   <!-- The following section contains the kernel configuration options that you need to have enabled for the device driver support-->
-  <project path="sonic-dell-linux-kernel" name="sonic/sonic-dell-linux-kernel" />
-  <project path="sonic-bcm-klm" name="sonic/sonic-bcm-lkm" />
+  <project path="sonic-dell-linux-kernel" name="sonic-dell-linux-kernel" remote="sonic" />
+  <project path="sonic-bcm-klm" name="sonic-bcm-lkm" remote="sonic" />
 
   <!-- The following section is for infrastructure and libraries-->
-  <project path="sonic-logging" name="ar/logging" />
-  <project path="sonic-common-utils" name="ar/common-utils" />
-  <project path="sonic-object-library" name="ar/cps-api" />
+  <project path="sonic-logging" name="logging" />
+  <project path="sonic-common-utils" name="common-utils" />
+  <project path="sonic-object-library" name="cps-api" />
 
   <!-- The following section is for API model definitions -->
-  <project path="sonic-base-model" name="ar/base-model"/>
+  <project path="sonic-base-model" name="base-model"/>
 
   <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
-  <project path="sonic-nas-acl" name="ar/nas-acl"/>
-  <project path="sonic-nas-common" name="ar/nas-common"/>
-  <project path="sonic-nas-daemon" name="ar/nas-daemon"/>
-  <project path="sonic-nas-interface" name="ar/nas-interface"/>
-  <project path="sonic-nas-l2" name="ar/nas-l2"/>
-  <project path="sonic-nas-l3" name="ar/nas-l3"/>
-  <project path="sonic-nas-ndi-api" name="ar/nas-ndi-api"/>
-  <project path="sonic-nas-ndi" name="ar/nas-ndi"/>
-  <project path="sonic-nas-qos" name="ar/nas-qos"/>
+  <project path="sonic-nas-acl" name="nas-acl"/>
+  <project path="sonic-nas-common" name="nas-common"/>
+  <project path="sonic-nas-daemon" name="nas-daemon"/>
+  <project path="sonic-nas-interface" name="nas-interface"/>
+  <project path="sonic-nas-l2" name="nas-l2"/>
+  <project path="sonic-nas-l3" name="nas-l3"/>
+  <project path="sonic-nas-ndi-api" name="nas-ndi-api"/>
+  <project path="sonic-nas-ndi" name="nas-ndi"/>
+  <project path="sonic-nas-qos" name="nas-qos"/>
   
   <!-- The following section is for the linux adaption layer - essentially the hooks allowing linux to work with the rest of the system -->
-  <project path="sonic-nas-linux" name="ar/nas-linux"/>
+  <project path="sonic-nas-linux" name="nas-linux"/>
 
   <!-- The following section is for platform service configuration -->
-  <project path="sonic-pas" name="ar/pas" />
-  <project path="sonic-sdi-api" name="ar/sdi-api" />
-  <project path="sonic-sdi-device-drivers" name="ar/sdi-device-drivers" />
-  <project path="sonic-sdi-sys" name="ar/sdi-sys" />
-  <project path="sonic-sdi-framework" name="ar/sdi-framework" />
+  <project path="sonic-pas" name="pas" />
+  <project path="sonic-sdi-api" name="sdi-api" />
+  <project path="sonic-sdi-device-drivers" name="sdi-device-drivers" />
+  <project path="sonic-sdi-sys" name="sdi-sys" />
+  <project path="sonic-sdi-framework" name="sdi-framework" />
   
-  <project path="sonic-nas-sai-api" name="ar/sai-api" />
+  <project path="sonic-nas-sai-api" name="sai-api" />
 </manifest>
 
