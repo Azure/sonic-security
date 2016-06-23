@@ -1,10 +1,15 @@
 
 Welcome to the SONiC NAS Host Adapter.
----------------------
+======================================
 
 This SONiC repo contains the manifest file for the repo tool used to pull down sources for the SONiC NAS Project.
 
 The SONiC NAS project is the SAI host adapter originally written by Dell contributed to the SONiC project.   
+
+
+Reading the documentation
+--------------------------------
+Comprehensive documentation is available at the following link: [SONiC NAS Documentation](http://confluence.force10networks.com/pages/viewpage.action?spaceKey=OPS&title=OS10%20Open%20Source%20Documentation)
 
 
 Setting up the build environment
@@ -12,22 +17,19 @@ Setting up the build environment
 Build Environment Recommendations:
 - Intel multi-core system 
 - We recommend Ubuntu 14.04 or later
-- 40G of disk space though likely far less is needed
+- 20G of free disk space 
+
 
 Dockers
 -------
-
 The SONiC NAS build environment relies on a Docker environment in which to build the sources.  
 
 Please refer to the [Docker website](http://www.docker.com) for more inforamtion on setting up and maintaining Docker environments.
 
-To setup your Docker environment use the script in SONiC-build-tools called sonic_setup.  This script will build a docker container called docker-sonic which will be used by the build scripts.
+SONiC NAS Docker Environment
+----------------------------
+To setup your Docker SONiC NAS image, use the script in SONiC-build-tools in the scripts folder called sonic_setup.  This script will build a docker container called docker-sonic which will be used by the build scripts.
 
-
-Reading the documentation
---------------------------------
-
-Comprehensive documentation is available at the following link: [SONiC NAS Documentation](http://confluence.force10networks.com/pages/viewpage.action?spaceKey=OPS&title=OS10%20Open%20Source%20Documentation)
 
 
 
