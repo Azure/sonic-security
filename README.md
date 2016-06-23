@@ -14,19 +14,14 @@ Comprehensive documentation is available at the following link: [SONiC NAS Docum
 Getting SONiC NAS
 -----------------
 There are two ways to get the SONiC NAS. 
-The First way is to download and install the binaries using the ones built from the sources on github.
 
-1) Download and install the SONiC NAS ONIE installer from [here](www.onieimage.for.installer) - See the documentation for the installation process.
-2) Update the sources.list (or create a sonic.list in the sources.list.d directory)
-    deb http://artifactory.force10networks.com/sonic unstable main
-3) apt-get update    
-4) apt-get install sonic-nas-s6000
-
+The First way is to download and install the binaries built from the sources on github.
+See the [Installation Instructions](https://confluence.force10networks.com/display/OPS/Installing+SONiC+NAS+Host+Adapter+on+Dell+Platforms) for more details.
 
 The second way to get SONiC NAS is to build it from scratch.  See the below section for instructions for building from scratch
 
-Setting up the build environment
-================================
+The build environment
+--------------------------------
 Build Environment Recommendations:
 - Intel multi-core system 
 - We recommend Ubuntu 14.04 or later
@@ -94,10 +89,10 @@ Building all repositories
 Firstly, you will need to download the SAI development packages.  Assuming /srv/src/sonic again, place all of the SAI library packages and SAI development packages in this folder.
 
 After this step, you should have the following directory listing:
- ## list of deb files needed  ##
+ # list of deb files needed  #
 
 After all of the required debian files have installed then you can do a:
-sonic_build all
+sonic_build --all
 
 That will build all of the repos and leave created packages in the /srv/src/sonic directory.
 
