@@ -92,7 +92,7 @@ After this step, you should have the following directory listing:
  # list of deb files needed  #
 
 After all of the required debian files have installed then you can do a:
-sonic_build --all
+sonic_build_all
 
 That will build all of the repos and leave created packages in the /srv/src/sonic directory.
 
