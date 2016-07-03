@@ -28,13 +28,17 @@ Updated environment: sudo apt-get update
 - Repo: sudo apt-get install repo
 - apt-utils: sudo apt-get install apt-utils
 - For docker environement setup, follow the [Docker environment setup guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/).
-**sudo apt install docker.io**
-**sudo apt-get install docker-engine**
-**sudo service docker start**
+```
+sudo apt install docker.io
+sudo apt-get install docker-engine
+sudo service docker start
+```
 - To avoid running docker commands as root (with sudo), follow these steps:
-**sudo grouped docker**
-**sudo gpasswd -a ${USER} docker**
-**sudo service docker restart**
+```
+sudo grouped docker
+sudo gpasswd -a ${USER} docker
+sudo service docker restart
+```
 - You may have to log out/in to activate the changes to groups   
 - Ensure you have proper permissions to clone source file (SSH Keys must be installed)
 
@@ -47,9 +51,10 @@ Build Environment Recommendations:
 Clone the Source code
 ---------------------
 To get the source files for the SONiC NAS host adapter run the following commands in an empty directory (root directory). For example ~/dev/sonic/:
- 
-**repo init -u ssh://git@stash.force10networks.com/sonic/sonic-nas-manifest.git**
-**repo sync**
+```
+repo init -u ssh://git@stash.force10networks.com/sonic/sonic-nas-manifest.git
+repo sync
+```
 
 The command, “repo sync”, will download all of the source files that you need to build the SONIC NAS host adapter. 
 In addition to the source files, you will also need some binary libraries for the SAI. Currently, the SAI is not open 
@@ -58,20 +63,26 @@ sourced entirely as it is based on Broadcom's SDK and there is no open source SA
 Building the code
 -----------------
 Setup your path to include the sonic-build-tools/scripts folder (if you plan to run this command often, you could optionally add it to the .bashrc):
-**cd sonic-build-tools/scripts**
-**export PATH=$PATH:$PWD**
+```
+cd sonic-build-tools/scripts
+export PATH=$PATH:$PWD
+```
 
 SONiC NAS Docker Environment
 ----------------------------
 To setup your Docker SONiC NAS image, use the script in sonic-build-tools/scripts folder called sonic_setup. This script will build a docker container called docker-sonic which will be used by the build scripts:
-**cd sonic-build-tools/scripts/**
-**sonic_setup**
+```
+cd sonic-build-tools/scripts/
+sonic_setup
+```
 
 Test your environment
 ---------------------
 To test the environment, you can run sonic_build in the directory sonic-logging (the sonic-logging repository): 
-**cd sonic-logging**
-**sonic_build -- clean binary**
+```
+cd sonic-logging
+sonic_build -- clean binary
+```
 
 Building one repository
 -----------------------
@@ -80,8 +91,11 @@ Please refer to the corresponding README.md file, associated with the repo for t
 Building all repositories
 ---------------------------
 In order to build all repos please follow these steps:
-- Download the SAI development binary packages to the root folder. (**The link to be provided**)
-- **sonic_build_all**
+- Download the SAI development binary packages to the root folder. (The link to be provided)
+- Then build all with the following command:
+```
+sonic_build_all
+```
 
 The above steps will build all of the repos and create packages in the same root directory.
 
