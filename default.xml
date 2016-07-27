@@ -22,7 +22,7 @@
   <project path="sonic-object-library" name="sonic-object-library" />
 
   <!-- The following section is for API model definitions -->
-  <project path="sonic-base-model" name="sonic-base-model"/>
+  <project path="sonic-base-model" name="sonic-object-library-schema"/>
 
   <!-- The following section is for all networking related functions including ACLs, QoS, etc.. -->
   <project path="sonic-nas-acl" name="sonic-nas-acl"/>
@@ -45,6 +45,6 @@
   <project path="sonic-sdi-sys" name="sonic-sdi-sys" />
   <project path="sonic-sdi-framework" name="sonic-sdi-framework" />
   
-  <project path="sonic-nas-sai-api" name="sonic-nas-sai-api" />
+  <project path="sonic-nas-sai-api" name="SAI" remote="sonic-sai"/>
 </manifest>
 
