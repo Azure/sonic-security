@@ -1,6 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
-  <remote name="sonic" fetch="ssh://git@stash.force10networks.com/sonic" revision="master" />
+  <remote name="sonic" fetch="ssh://git@github.com/Azure" revision="master" />
+  <remote name="sonic-sai" fetch="ssh://git@github.com/" revision="v0.9.4.0-dell" />
   <default remote="sonic" sync-j="4"/>
   
   <!-- The following section is for build tools and scripts-->
