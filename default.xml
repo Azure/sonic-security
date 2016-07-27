@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="sonic" fetch="ssh://git@github.com/Azure" revision="master" />
-  <remote name="sonic-sai" fetch="ssh://git@github.com/" revision="v0.9.4.0-dell" />
+  <remote name="sonic-sai" fetch="ssh://git@github.com/Dell-Networking" revision="v0.9.4.0-dell" />
   <default remote="sonic" sync-j="4"/>
   
   <!-- The following section is for build tools and scripts-->
@@ -45,6 +45,6 @@
   <project path="sonic-sdi-sys" name="sonic-sdi-sys" />
   <project path="sonic-sdi-framework" name="sonic-sdi-framework" />
   
-  <project path="SAI" name="sonic-nas-sai-api" remote="sonic-sai"/>
+  <project path="sonic-nas-sai-api" name="SAI" remote="sonic-sai"/>
 </manifest>
 
