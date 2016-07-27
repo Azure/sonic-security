@@ -14,7 +14,7 @@
   
   <!-- The following section contains the kernel configuration options that you need to have enabled for the device driver support-->
   <!-- project path="sonic-dell-linux-kernel" name="sonic-dell-linux-kernel"/ -->
-  <project path="sonic-bcm-klm" name="sonic-bcm-lkm"/>
+  <!--project path="sonic-bcm-klm" name="sonic-bcm-lkm"/ -->
 
   <!-- The following section is for infrastructure and libraries-->
   <project path="sonic-logging" name="sonic-logging" />
