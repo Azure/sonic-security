@@ -52,7 +52,7 @@ Clone the Source code
 ---------------------
 To get the source files for the SONiC NAS host adapter run the following commands in an empty directory (root directory). For example ~/dev/sonic/:
 ```
-repo init -u ssh://git@stash.force10networks.com/sonic/sonic-nas-manifest.git
+repo init -u ssh://git@github.com/Azure/sonic-nas-manifest.git
 repo sync
 ```
 
