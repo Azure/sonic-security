@@ -44,7 +44,7 @@ sudo service docker restart
 
 Build Environment Recommendations:
 - Intel multi-core system 
-- We recommend Ubuntu 14.04 or later
+- We recommend Ubuntu 16.04 or later (Desktop edition with Python installed)
 - 20G of free disk space 
 - Bash (most shell commands displayed in the documentation or this page refer to bash commands - we like csh as well)
 
@@ -59,6 +59,8 @@ repo sync
 The command, “repo sync”, will download all of the source files that you need to build the SONIC NAS host adapter. 
 In addition to the source files, you will also need some binary libraries for the SAI. Currently, the SAI is not open 
 sourced entirely as it is based on Broadcom's SDK and there is no open source SAI implementation from Broadcom at this time.
+
+All the build scripts are found in the [SONiC Build Tools repo](https://github.com/Azure/sonic-build-tools) and will be downloaded as part of the above "repo sync".
 
 Building the code
 -----------------
