@@ -25,18 +25,26 @@ The build environment
 Build Environment prerequisites:
 Updated environment: sudo apt-get update
 - GIT: sudo apt-get install git
-- Repo: sudo apt-get install repo
+- Repo: Install 'repo' using the instructions provided at: http://source.android.com/source/downloading.html
+```
+      Make sure you have a bin/ directory in your home directory and that it is included in your path:
+      $ mkdir ~/bin
+      $ PATH=~/bin:$PATH
+      Download the Repo tool and ensure that it is executable:
+      $ curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
+      $ chmod a+x ~/bin/repo
+```
 - apt-utils: sudo apt-get install apt-utils
 - For docker environement setup, follow the [Docker environment setup guide](https://docs.docker.com/engine/installation/linux/ubuntulinux/).
 ```
-sudo apt install docker.io
+sudo apt-get install docker.io
 sudo apt-get install docker-engine
 sudo service docker start
 ```
 - To avoid running docker commands as root (with sudo), follow these steps:
 ```
-sudo grouped docker
-sudo gpasswd -a ${USER} docker
+sudo groupadd docker ### The 'docker' group might already exist
+sudo gpasswd -a ${USER} docker ### Add your user id to the 'docker' group
 sudo service docker restart
 ```
 - You may have to log out/in to activate the changes to groups   
