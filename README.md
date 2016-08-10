@@ -56,6 +56,8 @@ Build Environment Recommendations:
 - 20G of free disk space 
 - Bash (most shell commands displayed in the documentation or this page refer to bash commands - we like csh as well)
 
+NOTE: For this guide, you will need to setup your ssh keys with Github [Settings->keys](https://github.com/settings/keys) as we are using git over ssh. 
+
 Clone the Source code
 ---------------------
 To get the source files for the SONiC NAS host adapter run the following commands in an empty directory (root directory). For example ~/dev/sonic/:
