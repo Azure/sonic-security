@@ -10,7 +10,7 @@ It is assumed that the user is familiar with Linux and has some basic developmen
 
 Reading the documentation
 -------------------------
-Comprehensive documentation is available at the following link: [SONiC NAS Documentation](http://confluence.force10networks.com/pages/viewpage.action?spaceKey=OPS&title=OS10%20Open%20Source%20Documentation)
+Comprehensive documentation is available at the following link: [SONiC NAS Documentation](https://github.com/Azure/sonic-nas-manifest/wiki)
 
 
 Getting SONiC NAS
