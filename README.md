@@ -113,4 +113,5 @@ Installation
 ------------
 Once all of the repos have been built then you can install the created ONIE Debian x86_64 image. Then install all of the build packages along with the other Debian files you downloaded earlier from in the root directory.
 
-See the SONiC NAS documentation for more information on the installation.
+See the [SONiC NAS documentation](https://github.com/Azure/sonic-nas-manifest/wiki/Install-SONiC-Host-Adapter-on-Dell-S6000-Platform) for more information on the installation.
+
