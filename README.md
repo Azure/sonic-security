@@ -102,14 +102,13 @@ Please refer to the corresponding README.md file, associated with the repo for t
 
 Building all repositories
 ---------------------------
-In order to build all repos please follow these steps:
-- Download the SAI development binary packages to the root folder. (The link to be provided)
-- Then build all with the following command:
+In order to build all repos, from the root directory, issue the following command:
+
 ```
 sonic_build_all
 ```
 
-The above steps will build all of the repos and create packages in the same root directory.
+The above command will build all of the repos and create packages in the same root directory.
 
 Installation
 ------------
