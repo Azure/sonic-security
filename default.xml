@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <manifest>
   <remote name="sonic" fetch="ssh://git@github.com/Azure" revision="master" />
-  <remote name="sonic-sai" fetch="ssh://git@github.com/Dell-Networking" revision="v0.9.4.0-dell" />
+  <remote name="sonic-sai" fetch="ssh://git@github.com/Dell-Networking" revision="master" />
   <default remote="sonic" sync-j="4"/>
   
   <!-- The following section is for build tools and scripts-->
-  <!-- project path="sonic-dell-buildimage" name="sonic-dell-buildimage"/ -->
+  <project path="sonic-dell-buildimage" name="sonic-dell-buildimage" remote="sonic-sai" groups="notdefault" />
   <project path="sonic-build-tools" name="sonic-build-tools"/>
 
   <!-- The following section is for platform configuration files-->
@@ -13,8 +13,8 @@
   <project path="sonic-nas-platform-s6000" name="sonic-nas-platform-s6000"/>
   
   <!-- The following section contains the kernel configuration options that you need to have enabled for the device driver support-->
-  <!-- project path="sonic-dell-linux-kernel" name="sonic-dell-linux-kernel"/ -->
-  <!--project path="sonic-bcm-klm" name="sonic-bcm-lkm"/ -->
+  <project path="sonic-dell-linux-kernel" name="sonic-dell-linux-kernel" remote="sonic-sai" groups="notdefault" />
+  <project path="sonic-bcm-klm" name="sonic-bcm-lkm" remote="sonic-sai" groups="notdefault" />
 
   <!-- The following section is for infrastructure and libraries-->
   <project path="sonic-logging" name="sonic-logging" />
@@ -45,6 +45,6 @@
   <project path="sonic-sdi-sys" name="sonic-sdi-sys" />
   <project path="sonic-sdi-framework" name="sonic-sdi-framework" />
   
-  <project path="sonic-nas-sai-api" name="SAI" remote="sonic-sai"/>
+  <project path="sonic-nas-sai-api" name="SAI" remote="sonic-sai" revision="v0.9.4.0-dell" />
 </manifest>
 
