@@ -1,7 +1,7 @@
 
 Welcome to the SONiC NAS Host-Adapter
 ======================================
-This SONiC repo contains the manifest file for the repo tool used to pull down sources for the SONiC NAS Project. The SONiC NAS project is the SAI Host-Adapter originally written by Dell contributed to the SONiC project. It is assumed that the user is familiar with Linux and has some basic development knowledge.   
+This SONiC repo contains the manifest file for the repo tool used to pull down sources for the SONiC NAS Project. The SONiC NAS project is the SAI Host-Adapter originally written by Dell and contributed to the SONiC project. It is assumed that the user is familiar with Linux and has some basic development knowledge.   
 
 Reading the documentation
 -------------------------
