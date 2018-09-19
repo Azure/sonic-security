@@ -72,7 +72,7 @@ Work items are recorded as Git issues in each repo such as
 [sonic-buildimage issues](https://github.com/Azure/sonic-buildimage/issues) and in other sonic repositories. These generally include defects, features, and wishes. Anybody can read, create, and comment on issues. The SONiC maintainers can assign owners, tag, and close issues.
 
 The responsible disclosure model is to not create public work items for high-impact vulnerabilities (easier to reproduce and have larger impacts) until a mitigation is available.
-See: [SONiC reporting security issues](https://github.com/Azure/sonic-security/blob/master/report-security-issues.md)
+See: [SONiC reporting security issues](https://github.com/Azure/sonic-security/blob/master/sonic-report-security-issues.md)
 
 
 ## Test
