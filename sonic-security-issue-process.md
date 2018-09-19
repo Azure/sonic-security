@@ -1,6 +1,6 @@
 # SONiC security issues process
 
-See also: [sonic-report-security-issue](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-report-security-issues.md)
+See also: [sonic-report-security-issue](https://github.com/Azure/sonic-security/blob/master/sonic-report-security-issues.md)
 
 The security working group leads the discussion about security
 issues, engages resources to address them, and creates

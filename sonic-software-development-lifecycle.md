@@ -30,7 +30,7 @@ The github review tool (Pull request) helps providing high quality reviews:
 - Re-worked material can be seen in context with previous commits etc.
 
 Security aspects of code review:
-[Security code review](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-security-code-review-priority.md).
+[Security code review](https://github.com/Azure/sonic-security/blob/master/sonic-security-code-review-priority.md).
 
 Reviewers would pay attention to stack buffer overflow, heap overflow and integer arithmetic errors etc security related aspects.
 
@@ -47,14 +47,14 @@ Pull-request sent by contributor should resolve conflicts before approval, merge
 
 ## Use of open source projects
 
-SONiC build process pulls in other open source projects, including debian pacakges, docker, redis, and many others. The exact list is provided by a seperate dependecy tracker document: [SONiC Dependency Tracker](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-dependency-track.md)
+SONiC build process pulls in other open source projects, including debian pacakges, docker, redis, and many others. The exact list is provided by a seperate dependecy tracker document: [SONiC Dependency Tracker](https://github.com/Azure/sonic-security/blob/master/sonic-dependency-track.md)
 
 The quality of these projects matters because they can introduce security vulnerabilities into the SONiC project. The open source packages are from well-known sources, specific releases are used, and the cryptographic hashes are obtained from trusted sources and
 validated during the build process.  All such hashes are stored in the
 SONiC build repository [sonic-buildimage](https://github.com/Azure/sonic-buildimage) as submodule commit-id or tag/commit-id in Makefile. This mechanism can control the
 exact set of code SONiC retrieves.
 
-The SONiC development team reviews the packages SONiC uses for known security vulnerabilities, and updates the dependecies accordingly. See: [SONiC Dependency Tracker](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-dependency-track.md)
+The SONiC development team reviews the packages SONiC uses for known security vulnerabilities, and updates the dependecies accordingly. See: [SONiC Dependency Tracker](https://github.com/Azure/sonic-security/blob/master/sonic-dependency-track.md)
 
 
 ## Development tools
@@ -72,7 +72,7 @@ Work items are recorded as Git issues in each repo such as
 [sonic-buildimage issues](https://github.com/Azure/sonic-buildimage/issues) and in other sonic repositories. These generally include defects, features, and wishes. Anybody can read, create, and comment on issues. The SONiC maintainers can assign owners, tag, and close issues.
 
 The responsible disclosure model is to not create public work items for high-impact vulnerabilities (easier to reproduce and have larger impacts) until a mitigation is available.
-See: [SONiC reporting security issues](https://github.com/zhenggen-xu/sonic-security/blob/master/report-security-issues.md)
+See: [SONiC reporting security issues](https://github.com/Azure/sonic-security/blob/master/report-security-issues.md)
 
 
 ## Test
@@ -93,5 +93,5 @@ When releasing SONiC, penetration test is done and reported during the release c
 
 The SONiC project has regular releases every 3 months since a few years ago. 
 
-The [SONiC release checklist](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-release-checklist.md) is performed for each release going forward.
+The [SONiC release checklist](https://github.com/Azure/sonic-security/blob/master/sonic-release-checklist.md) is performed for each release going forward.
 

@@ -6,7 +6,7 @@ See also:
 [SONiC architecture](https://github.com/Azure/SONiC/wiki/Architecture)
 
 ## SONiC attack surface diagram
-![](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-attacksurface-diagram.png)
+![](https://github.com/Azure/sonic-security/blob/master/sonic-attacksurface-diagram.png)
 
 ## External interfaces
 As illustrated above, there are interfaces from outside to access SONiC:

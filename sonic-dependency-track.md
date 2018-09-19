@@ -4,7 +4,7 @@ SONiC uses Linux distribution Debian as base Operation System. At the time of wr
 
 SONiC utilize debian packages to support all functions. There are a few different categories for the packages running on the target. We are tracking the packages based on categories as describled later in the document.
 
-Weekly meeting is scheduled to review the security updates from all the dependencies.  See detail info: [SONiC working group activities](https://github.com/zhenggen-xu/sonic-security/wiki). Decision will be made about when and how to fix/patch the security issues if the fix is known or resource is assigned to investigate the issues.
+Weekly meeting is scheduled to review the security updates from all the dependencies.  See detail info: [SONiC working group activities](https://github.com/Azure/sonic-security/wiki). Decision will be made about when and how to fix/patch the security issues if the fix is known or resource is assigned to investigate the issues.
 
 A spreadsheet is maintained to keep the dependency history and up-to-dated security issues' status:
 [SONiC Dependency Tracker File](https://docs.google.com/spreadsheets/d/1db5uvrd0ph_MBB43iHuNhnLb9klpU6e7NF6S0p3KmZ4/edit?usp=sharing)
@@ -58,7 +58,7 @@ The document here tracks up-to-date issues for FRR:
 
 ## SONiC own source code
 SONiC own source code is designed and implemented by SONiC community, and follows the SDL mentioned here:
-[SONiC SDL](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-software-development-lifecycle.md)
+[SONiC SDL](https://github.com/Azure/sonic-security/blob/master/sonic-software-development-lifecycle.md)
 
 The SONiC source code is tracked here:
 [SONiC source code](https://docs.google.com/spreadsheets/d/1db5uvrd0ph_MBB43iHuNhnLb9klpU6e7NF6S0p3KmZ4/edit#gid=123193953)
