@@ -17,7 +17,7 @@ Work flow highlights:
 
   1. Handle new problem reports
 
-     - Within 48 hours, acknowledge you received the report.
+     - Within 2 business days, acknowledge you received the report.
      - Communicate within the security working group.
 
   2. Analyze the problem
