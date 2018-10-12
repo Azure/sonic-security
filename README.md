@@ -24,21 +24,28 @@ This is the top level document for SONiC security aspects. The audience is SONiC
 
 Meeting access information 
 
-Weekly on Wednesday 5pm PDT 
+Weekly on Wednesday 5:45pm-6:15pm PDT 
 
-Skype information:
-[https://meet.lync.com/microsoft/xinxliu/SQBG0HJ9](https://meet.lync.com/microsoft/xinxliu/SQBG0HJ9)
+To join the Meeting:
+https://bluejeans.com/757307251
 
-Join by phone:  
-Toll-free number: +1 (866) 641-7188,,41690443# (Dial-in Number)     English (United States)  
-Toll number:      +1 (347) 991-7781,,41690443# (Dial-in Number)     English (United States)  
+To join via phone :  
+1)  Dial:
+  +1.408.740.7256 (US (San Jose))  
+  +1.888.240.2560 (US Toll Free)  
+  +1.408.317.9253 (US (Primary, San Jose))   
 
-[Find a local number](https://dialin.lync.com/48b4c613-cc67-4825-8175-29628d9715e5?id=41690443)  
-Conference ID: 41690443
+  +86.10.8783.3402 (China (Mandarin))  
+  +86.400.120.2896 (China (National)) 
+ 
+  (see all numbers - http://bluejeans.com/premium-numbers)   
+
+2)  Enter Conference ID : 757307251
 
 
 All meeting notes: 
 [Security WG meeting notes](https://docs.google.com/document/d/1VvbFkXovfwTQiG8WCzN8bZb5_4mOlWQymC8NeHZ0q5Q/edit?usp=sharing)
+
 ***
 ## Contact
 Public email: sonicproject@googlegroups.com
