@@ -16,7 +16,7 @@ This is the top level document for SONiC security aspects. The audience is SONiC
 ## SONiC release checklist
 [SONiC release checklist](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-release-checklist.md)
 
-## SONiC dependency tracker
+## SONiC dependency tracker (updated weekly)
 [SONiC dependency tracker](https://github.com/zhenggen-xu/sonic-security/blob/master/sonic-dependency-track.md)
 
 ***
