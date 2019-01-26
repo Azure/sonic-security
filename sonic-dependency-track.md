@@ -19,7 +19,7 @@ SONiC security team members are subscribled to debian-security-announce@lists.de
 [debian security announce](https://lists.debian.org/debian-security-announce/)
 
 Weekly review is done against the latest Debian security advisor: 
-[https://www.debian.org/security/2018/](https://www.debian.org/security/2018/)
+[https://www.debian.org/security/2018/](https://www.debian.org/security/2018/) and [https://www.debian.org/security/2019/](https://www.debian.org/security/2019/)
 
 ## Package built from Debian source code:
 In some cases, SONiC needs modify debian maintained source code by adding patches. The patches themselves were reviewed by SONiC community and merged by SONiC maintainers, while the source code security issues were tracked by Debian security team.
@@ -34,8 +34,7 @@ SONiC security team members are subscribled to debian-security-announce@lists.de
 [debian security announce](https://lists.debian.org/debian-security-announce/)
 
 Weekly review is done against the latest Debian security advisor:
-[https://www.debian.org/security/2018/](https://www.debian.org/security/2018/
-)
+[https://www.debian.org/security/2018/](https://www.debian.org/security/2018/) and [https://www.debian.org/security/2019/](https://www.debian.org/security/2019/)
 
 ## Packages built from vendor source
 SONiC supports multiple ASICs and platforms.
