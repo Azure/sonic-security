@@ -49,7 +49,7 @@ This feature not enabled at the time of writing this document.
 - wget/apt-get etc  
 For installing packages/images, we could use wget or apt-get to download packages onto the SONiC devices. 
 
-### HW accesss interface
+### HW access interface
 - ASIC access interface  
 This interface is used to talk to ASIC, it is running on top of ASIC vendor SDK. 
 
